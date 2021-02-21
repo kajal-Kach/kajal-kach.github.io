@@ -1,0 +1,778 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+
+<title>document</title>
+<style>
+hr.l1{
+		border-top: 3px double #8b0000;
+		width: 50%
+}
+
+#fixedfooter {
+	
+	
+	color:#CCC;
+	background:#333;
+	padding:50px;
+	width:100%;
+	
+}
+
+
+#fixedheader {
+	position:fixed;
+	top:0px;
+	left:0px;
+	width:100%;
+	
+	color:#CCC;
+	background:#333;
+	padding:8px;
+}
+div.polaroid {
+  width: 500px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+}
+
+
+
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+</style>
+</head>
+<body>
+
+<header id="fixedheader" class="text-red-300 body-font">
+  <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+    <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+	<img src="images/logo.jpg" width="40">
+
+      <span class="ml-3 text-xl text-red-700"><b>PARAKH ONLINE PVT. LTD</b></span>
+    </a>
+    <nav class="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
+      <a class="mr-5 hover:text-red-700 focus:text-red-700 " href="#" title="press here"><b>HOME</b></a>
+	  
+      
+	  
+	  
+	  <div class="dropdown">
+    <button class="mr-5 hover:text-red-700 focus:text-red-700 " onclick="window.location.href='#core'"><b>OUR TEAM </b>
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a  class="mr-5 hover:text-red-700 focus:text-red-700" href="#core"> CORE TEAM</a>
+      <a class="mr-5 hover:text-red-700 focus:text-red-700" href="#advisory"> ADVISORY TEAM</a>
+      <a class="mr-5 hover:text-red-700 focus:text-red-700" href="#strategic"> STRATEGIC ADVISORS</a>
+    </div>
+  </div> 
+  
+  
+  
+      <a class="mr-5 hover:text-red-700 focus:text-red-700 " href="#brands"><b>BRANDS</b></a>
+	  
+      <a class="mr-5 hover:text-red-700 focus:text-red-700 " href="#solution"><b>SOLUTIONS</b></a>
+	  <a class="mr-5 hover:text-red-700 focus:text-red-700 " href="abc.html"><b>ABOUT US</b></a>
+    </nav>
+    <button class="mr-5 hover:text-red-600 inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0"><b>CONTACT US</b>
+      <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
+        <path d="M5 12h14M12 5l7 7-7 7"></path>
+      </svg>
+    </button>
+  </div>
+</header>
+
+<section id="abc" class="text-gray-600 body-font">
+  <div class="container px-5 py-24 mx-auto">
+    <div class="lg:w-2/3 flex flex-col sm:flex-row sm:items-center items-start mx-auto"></br></br></br> </br></br></br></br> </br></br>
+      <h1 class="flex-grow sm:pr-16 text-xl font-medium title-font text-gray-500">Creating solutions to bring utmost ease and transparency into business management by harnessing technology.</h1>
+      <button  class="flex-shrink-0 text-white bg-red-400 border-0 py-2 px-8 focus:outline-none hover:bg-red-600 rounded text-lg mt-10 sm:mt-0" onclick="window.location.href='abc.html'" >Overview</button>
+    </div>
+  </div>
+  </section>
+
+	<a name="industries">	
+  <section class="text-gray-600 body-font">
+  
+  <center>
+  <div class="flex-grow sm:pr-16 text-4xl font-medium title-font text-red-700">
+				INDUSTRIES SERVED BY PARAKH
+			</div></center>
+  <div class="container px-5 py-24 mx-auto">
+    <div class="flex flex-wrap -mx-4 -mb-10 text-center">
+      <div class="sm:w-1/2 mb-10 px-4">
+        <div class="rounded-lg h-64 overflow-hidden">
+          <img alt="content" class="object-cover object-center h-full w-full" src="images/edufinal.jpg">
+        </div>
+        <h2 class="title-font text-2xl font-medium text-red-700 mt-6 mb-3">EDUCATION INDUSTRIES</h2>
+        <p class="leading-relaxed text-base">Education has been difficult to access after the pandemic. We always believe education must not be a second priority in any circumstances. With our 10+ years of experience in the education sector, we have created various products, specifically for education industries i.e. schools, colleges, universities, coaching centers, tuition centres to transform their traditional education into a digital classroom.</p>
+          </div>
+      <div class="sm:w-1/2 mb-10 px-4">
+        <div class="rounded-lg h-64 overflow-hidden">
+          <img alt="content" class="object-cover object-center h-full w-full" src="images/ass3.jpg">
+        </div>
+        <h2 class="title-font text-2xl font-medium text-red-700 mt-6 mb-3">ASSESSMENT INDUSTRIES</h2>
+        <p class="leading-relaxed text-base">The examination industry has changed significantly with the innovation of technology. With the rise of demand in education in our country, examination has also become an important part of the system. With our 10+ years of experience in serving the examination Industry, we have understood the pain areas of the examination industry and developed various innovative products to solve the problems of conducting examinations for educational institutes, government bodies, and corporates.</p>
+        </div>
+		
+    </div>
+  </div>
+</section>
+</a>
+
+<center><hr class="l1 "></center><a name="why">
+</br></br></br>
+
+<section>
+<center>
+  <div class="flex-grow sm:pr-16 text-4xl font-medium title-font text-red-700">
+				WHY PARAKH?
+				
+			</div>
+			<div>
+			</br></br></br>
+			<img  src="images/why.jpg" width="60%" border="1px"></center></div>
+</section></br></br></a>
+<center><hr class="l1 "></center>
+
+   <a name="core">
+<section id="core" class="text-gray-600 body-font">
+  <div class="container px-5 py-24 mx-auto">
+    <div class="flex flex-col text-center w-full mb-20">
+      <h1 class="text-4xl font-medium title-font mb-4 text-red-700">OUR CORE TEAM</h1>
+	  
+      <p class="lg:w-2/3 mx-auto leading-relaxed text-base">  </div>
+    <div class="flex flex-wrap -m-4">
+      <div class="p-4 lg:w-1/3 md:w-1/2">
+        <div class="h-full flex flex-col items-center text-center">
+          <img alt="team" class="flex-shrink-0 rounded-lg w-56 h-56 object-cover object-center mb-4" src="images/man.jpg">
+          <div class="w-full">
+            <h2 class="title-font font-medium text-lg text-red-700">MANIK KASHYAP</h2></br>
+            
+            <p class="mb-4 text-grey-500">Self-made Entrepreneur with Combined 12+ years of Experience in entrepreneurship into the online examination & education industry,along with establishing & running SaaS tech startup business model.</p>
+            <span class="inline-flex">
+              <a class="text-gray-500">
+                <svg fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                  <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                </svg>
+              </a>
+              <a class="ml-2 text-gray-500">
+                <svg fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                  <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+                </svg>
+              </a>
+              <a class="ml-2 text-gray-500">
+                <svg fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                  <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
+                </svg>
+              </a>
+            </span>
+          </div>
+        </div>
+      </div>
+      <div class="p-4 lg:w-1/3 md:w-1/2">
+        <div class="h-full flex flex-col items-center text-center">
+          <img alt="team" class="flex-shrink-0 rounded-lg w-56 h-56 object-cover object-center mb-4" src="images/an.jpg">
+          <div class="w-full">
+            <h2 class="title-font font-medium text-lg text-red-700">ANKIT BANSAL</h2></br>
+            
+            <p class="mb-4 text-grey-500">IIT-IIM Graduate with 13 years of multi-domain experience. Held National Head roles in multiple companies. Managed more than 100Cr worth of businesses.</p>
+            <span class="inline-flex">
+              <a class="text-gray-500">
+                <svg fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                  <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                </svg>
+              </a>
+              <a class="ml-2 text-gray-500">
+                <svg fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                  <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+                </svg>
+              </a>
+              <a class="ml-2 text-gray-500">
+                <svg fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                  <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
+                </svg>
+              </a>
+            </span>
+          </div>
+        </div>
+      </div>
+      <div class="p-4 lg:w-1/3 md:w-1/2">
+        <div class="h-full flex flex-col items-center text-center">
+          <img alt="team" class="flex-shrink-0 rounded-lg w-56 h-56 object-cover object-center mb-4" src="images/in.jpg">
+          <div class="w-full">
+            <h2 class="title-font font-medium text-lg text-red-700">INDU KASHYAP</h2></br>
+            
+            <p class="mb-4 text-grey-500">A passionate business professional with 8+ years of experience in managing HR, Operations & Marketing into the Ed-tech & assessment industry.</p>
+            <span class="inline-flex">
+              <a class="text-gray-500">
+                <svg fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                  <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                </svg>
+              </a>
+              <a class="ml-2 text-gray-500">
+                <svg fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                  <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+                </svg>
+              </a>
+              <a class="ml-2 text-gray-500">
+                <svg fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                  <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
+                </svg>
+              </a>
+            </span>
+          </div>
+        </div>
+      </div>
+     
+</section>
+  </a>
+  
+  <center><hr class="l1 "></center>
+  
+   <a name="advisory">
+  <section id="advisory" class="text-gray-600 body-font">
+  <div class="container px-5 py-24 mx-auto">
+    <div class="flex flex-col text-center w-full mb-20">
+      <h1 class="text-4xl font-medium title-font mb-4 text-red-700">OUR ADVISORY TEAM</h1>
+	  
+      <p class="lg:w-2/3 mx-auto leading-relaxed text-base">  </div>
+    <div class="flex flex-wrap -m-4">
+      <div class="p-4 lg:w-1/2 md:w-1/2">
+        <div class="h-full flex flex-col items-center text-center">
+          <img alt="team" class="flex-shrink-0 rounded-lg w-56 h-56 object-cover object-center mb-4" src="images/lak.jpg">
+          <div class="w-full">
+            <h2 class="title-font font-medium text-lg text-red-700">Mr. LAKSHMAN SINGH</h2></br>
+            
+            <p class="mb-4 text-grey-500">He is a business strategist. He is an entrepreneur,a teacher,a farmer & mentor with the drive to build, innovate, motivate and succeed. He is our ally in our quest, with his 3 decades of experience and business acumen.</p>
+            <span class="inline-flex">
+              <a class="text-gray-500">
+                <svg fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                  <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                </svg>
+              </a>
+              <a class="ml-2 text-gray-500">
+                <svg fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                  <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+                </svg>
+              </a>
+              <a class="ml-2 text-gray-500">
+                <svg fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                  <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
+                </svg>
+              </a>
+            </span>
+          </div>
+        </div>
+      </div>
+      <div class="p-4 lg:w-1/2 md:w-1/2">
+        <div class="h-full flex flex-col items-center text-center">
+          <img alt="team" class="flex-shrink-0 rounded-lg w-56 h-56 object-cover object-center mb-4" src="images/dew.jpg">
+          <div class="w-full">
+            <h2 class="title-font font-medium text-lg text-red-700">Dr. DEWAKAR GOEL</h2></br>
+            
+            <p class="mb-4 text-grey-500">Former Director - HR, Airports Authority of India, under the Ministry of Civil Aviation, is a great writer, professor, trainer and an entrepreneur</p>
+            <span class="inline-flex">
+              <a class="text-gray-500">
+                <svg fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                  <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                </svg>
+              </a>
+              <a class="ml-2 text-gray-500">
+                <svg fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                  <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+                </svg>
+              </a>
+              <a class="ml-2 text-gray-500">
+                <svg fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                  <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
+                </svg>
+              </a>
+            </span>
+          </div>
+        </div>
+      </div>
+      
+     
+</section>
+
+</a>
+
+
+
+ <center><hr class="l1 "></center>
+  
+  <a name="strategic">
+  <section id="strategic" class="text-gray-600 body-font">
+  <div class="container px-5 py-24 mx-auto">
+    <div class="flex flex-col text-center w-full mb-20">
+      <h1 class="text-4xl font-medium title-font mb-4 text-red-700">OUR STRATEGIC ADVISORS</h1>
+	  
+      <p class="lg:w-2/3 mx-auto leading-relaxed text-base">  </div>
+    <div class="flex flex-wrap -m-4">
+      <div class="p-4 lg:w-1/4 md:w-1/2">
+        <div class="h-full flex flex-col items-center text-center">
+          <img alt="team" class="flex-shrink-0 rounded-lg w-56 h-56 object-cover object-center mb-4" src="images/ra.jpg">
+          <div class="w-full">
+            <h2 class="title-font font-medium text-lg text-red-700">RAHUL GUPTA</h2></br>
+            
+            <p class="mb-4 text-grey-500">IITian & Regional Head at Xseed Education. A versatile business professional with over 9 years of experience in Sales, Business Development</p>
+            <span class="inline-flex">
+              <a class="text-gray-500">
+                <svg fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                  <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                </svg>
+              </a>
+              <a class="ml-2 text-gray-500">
+                <svg fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                  <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+                </svg>
+              </a>
+              <a class="ml-2 text-gray-500">
+                <svg fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                  <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
+                </svg>
+              </a>
+            </span>
+          </div>
+        </div>
+      </div>
+      <div class="p-4 lg:w-1/4 md:w-1/2">
+        <div class="h-full flex flex-col items-center text-center">
+          <img alt="team" class="flex-shrink-0 rounded-lg w-56 h-56 object-cover object-center mb-4" src="images/manm.jpg">
+          <div class="w-full">
+            <h2 class="title-font font-medium text-lg text-red-700">MANMEET SINGH</h2></br>
+            
+            <p class="mb-4 text-grey-500">Student-at-Law at Ontario Ministryof the Attorney General (Canada). A multi-degreed lawyer with several years of success as a strategic business partner, corporate lawyer, and litigator</p>
+            <span class="inline-flex">
+              <a class="text-gray-500">
+                <svg fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                  <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                </svg>
+              </a>
+              <a class="ml-2 text-gray-500">
+                <svg fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                  <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+                </svg>
+              </a>
+              <a class="ml-2 text-gray-500">
+                <svg fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                  <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
+                </svg>
+              </a>
+            </span>
+          </div>
+        </div>
+      </div>
+      
+          <div class="p-4 lg:w-1/4 md:w-1/2">
+        <div class="h-full flex flex-col items-center text-center">
+          <img alt="team" class="flex-shrink-0 rounded-lg w-56 h-56 object-cover object-center mb-4" src="images/ga.jpg">
+          <div class="w-full">
+            <h2 class="title-font font-medium text-lg text-red-700">GAURAV PANDEY</h2></br>
+            
+            <p class="mb-4 text-grey-500">IITian & Technical Specialist - Robotics at Ford Motor Company</p>
+            <span class="inline-flex">
+              <a class="text-gray-500">
+                <svg fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                  <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                </svg>
+              </a>
+              <a class="ml-2 text-gray-500">
+                <svg fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                  <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+                </svg>
+              </a>
+              <a class="ml-2 text-gray-500">
+                <svg fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                  <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
+                </svg>
+              </a>
+            </span>
+          </div>
+        </div>
+      </div>
+	  
+	       <div class="p-4 lg:w-1/4 md:w-1/2">
+        <div class="h-full flex flex-col items-center text-center">
+          <img alt="team" class="flex-shrink-0 rounded-lg w-56 h-56 object-cover object-center mb-4" src="images/pa.jpg">
+          <div class="w-full">
+            <h2 class="title-font font-medium text-lg text-red-700">PANKAJ KUMAR</h2></br>
+            
+            <p class="mb-4 text-grey-500">IITian & Product Manager in Microsoft He has 10+ years across domains including Online travel, e-commerce, & Online Music Streaming</p>
+            <span class="inline-flex">
+              <a class="text-gray-500">
+                <svg fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                  <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                </svg>
+              </a>
+              <a class="ml-2 text-gray-500">
+                <svg fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                  <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+                </svg>
+              </a>
+              <a class="ml-2 text-gray-500">
+                <svg fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                  <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
+                </svg>
+              </a>
+            </span>
+          </div>
+        </div>
+      </div>
+	  </div>
+</section>
+
+  <center><hr class="l1 "></center>
+</a>
+
+
+<a name="brands">
+<section id="brands"class="text-gray-600 body-font">
+  <div class="container px-5 py-24 mx-auto">
+   <center><h1 text-align="center" class="text-4xl font-medium title-font mb-4 text-red-700">BRANDS OWNED BY PARAKH</h1></center> </br></br></br>
+    <div class="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4">
+      <div class="p-4 md:w-1/3 sm:mb-0 mb-6">
+        <div class="rounded-lg h-64 overflow-hidden">
+          <img alt="content" class="object-cover object-center h-full w-full" src="images/ep.jpg" >
+        </div>
+        <h2 class="title-font font-medium text-lg text-red-700">EXAMPANDA</h2>
+        <p class="text-base leading-relaxed mt-2">ExamPanda is a brand owned by Parakh Pvt exam Ltd. that  provides a complete solution for
+conducting any type of examinations across India.
+</p>
+        
+      </div>
+      <div class="p-4 md:w-1/3 sm:mb-0 mb-6">
+        <div class="rounded-lg h-64 overflow-hidden">
+          <img alt="content" class="object-cover object-center h-full w-full" src="images/infra1.png">
+        </div>
+        <h2 class="title-font font-medium text-lg text-red-700">BOOKINFRA</h2>
+        <p class="text-base leading-relaxed mt-2">Book Infra is developed to give a centralized platform for searching and booking exam venues across India. Book Infra also offers exam venue auditing services to ensure the exam venues meet the examinations requirements. Along with it, Book Infra helps entrepreneurs set up and run their own exam venues.</p>
+       
+      </div>
+	   <div class="p-4 md:w-1/3 sm:mb-0 mb-6">
+        <div class="rounded-lg h-64 overflow-hidden">
+          <img alt="content" class="object-cover object-center h-full w-full" src="images/edu.jpg">
+        </div>
+        <h2 class="title-font font-medium text-lg text-red-700">EDUVUE</h2>
+        <p class="text-base leading-relaxed mt-2">EduVue is developed to provide complete institute management solution to the educational institutes i.e. schools, colleges, universities, coaching centers and training centers.</p>
+        
+      </div>
+      <div class="p-4 md:w-1/3 sm:mb-0 mb-6">
+        <div class="rounded-lg h-64 overflow-hidden">
+          <img alt="content" class="object-cover object-center h-full w-full" src="images/test1.png">
+        </div>
+        <h2 class="title-font font-medium text-lg text-red-700">TESTILO</h2>
+        <p class="text-base leading-relaxed mt-2">Testilo provides a robust and scalable test engine solution to conduct any type of computer-based, web-based, or tablet-based exams in a secure environment.</p>
+       
+      </div>
+	 
+	 
+	  <div class="p-4 md:w-1/3 sm:mb-0 mb-6">
+        <div class="rounded-lg h-64 overflow-hidden">
+          <img alt="content" class="object-cover object-center h-full w-full" src="images/hire.jpg">
+        </div>
+        <h2 class="title-font font-medium text-lg text-red-700">HIREHUES</h2>
+        <p class="text-base leading-relaxed mt-2">Hire Hues is a human resources solution developed by Parakh Pvt Ltd that provides skilled invigilators, IT infrastructure managers, and other manpower resources to the exam centers for conducting different types of examinations.</p>
+        
+      </div>
+	   <div class="p-4 md:w-1/3 sm:mb-0 mb-6">
+        <div class="rounded-lg h-64 overflow-hidden">
+          <img alt="content" class="object-cover object-center h-full w-full" src="images/learn2.png">
+        </div>
+        <h2 class="title-font font-medium text-lg text-red-700">LEARNIFY</h2>
+        <p class="text-base leading-relaxed mt-2">Learnify is a brand owned by Parakh Pvt. Ltd is providing skill-based and job-based training and certification courses to the individuals and helping them move ahead in their careers.</p>
+      
+      </div>
+    </div>
+  </div>
+</section>
+
+  <center><hr class="l1 "></center>
+  
+  </a>
+  
+  
+  
+  
+  <a name="solution">
+  <section id="solution" class="text-gray-600 body-font">
+  <div class="container px-5 py-24 mx-auto">
+   <center><h1 text-align="center" class="text-4xl font-medium title-font mb-4 text-red-700">OUR SOLUTIONS</h1></center> </br></br></br>
+    <div class="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4">
+      <div class="p-4 md:w-1/4 sm:mb-0 mb-6">
+        <div class="rounded-lg h-64 overflow-hidden">
+          <img alt="content" class="object-cover object-center h-full w-full" src="images/cas.png" >
+        </div>
+        <h2 class="title-font font-medium text-lg text-red-700">
+		COMPLETE ASSESSMENT SOLUTION</h2>
+        <p class="text-base leading-relaxed mt-2"><ul>
+		<li>•	Create portal for candidate registration</li>
+		<li>•	Exam registration through online or offline form fill-up</li>
+		</ul>
+</p>
+        <a class="text-red-500 inline-flex items-center mt-3" href="learn.html#cas">Learn More
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+            <path d="M5 12h14M12 5l7 7-7 7"></path>
+          </svg>
+        </a>
+      </div>
+      <div class="p-4 md:w-1/4 sm:mb-0 mb-6">
+        <div class="rounded-lg h-64 overflow-hidden">
+          <img alt="content" class="object-cover object-center h-full w-full" src="images/eims.png">
+        </div>
+        <h2 class="title-font font-medium text-lg text-red-700">
+		EDUCATION INSTITUTE MANAGEMENT SYSTEM</h2>
+        <p class="text-base leading-relaxed mt-2"><ul>
+		<li>•	Enquiry & Sales Management</li>
+		<li>•	Customer Care & Ticketing System</li>
+		</ul></p>
+        <a class="text-red-500 inline-flex items-center mt-3" href="learn.html#eims">Learn More
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+            <path d="M5 12h14M12 5l7 7-7 7"></path>
+          </svg>
+        </a>
+      </div>
+	   <div class="p-4 md:w-1/4 sm:mb-0 mb-6">
+        <div class="rounded-lg h-64 overflow-hidden">
+          <img alt="content" class="object-cover object-center h-full w-full" src="images/evb.png">
+        </div>
+        <h2 class="title-font font-medium text-lg text-red-700">EXAM VENUE BOOKING SOLUTION</h2>
+        <p class="text-base leading-relaxed mt-2"><ul>
+		<li>•	Search, Evaluate and on-board PAN India Exam Venues using multiple criteria</li>
+		<li>•	 	Get detail information about a Venue along with photographs & verified contact details</li>
+		</ul></p>
+        <a class="text-red-500 inline-flex items-center mt-3" href="learn.html#evb">Learn More
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+            <path d="M5 12h14M12 5l7 7-7 7"></path>
+          </svg>
+        </a>
+      </div>
+      <div class="p-4 md:w-1/4 sm:mb-0 mb-6">
+        <div class="rounded-lg h-64 overflow-hidden">
+          <img alt="content" class="object-cover object-center h-full w-full" src="images/rp.png">
+        </div>
+        <h2 class="title-font font-medium text-lg text-red-700">REGISTRATION PORTAL</h2>
+        <p class="text-base leading-relaxed mt-2"><ul>
+		<li>•	SMS & Email</li>
+		<li>•	Aadhaar based verification</li>
+		</ul></p>
+         <a class="text-red-500 inline-flex items-center mt-3" href="learn.html#rp">Learn More
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+            <path d="M5 12h14M12 5l7 7-7 7"></path>
+          </svg>
+        </a>
+      </div>
+	 
+	 
+	  <div class="p-4 md:w-1/4 sm:mb-0 mb-6">
+        <div class="rounded-lg h-64 overflow-hidden">
+          <img alt="content" class="object-cover object-center h-full w-full" src="images/bs.png">
+        </div>
+        <h2 class="title-font font-medium text-lg text-red-700">BIOMETRIC SOLUTION</h2>
+        <p class="text-base leading-relaxed mt-2"><ul>
+		<li>•	In-house software to capture biometric</li>
+		<li>•	Detailed log reports of candidates White labelled solutions</li>
+		</ul></p>
+        <a class="text-red-500 inline-flex items-center mt-3" href="learn.html#bs">Learn More
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+            <path d="M5 12h14M12 5l7 7-7 7"></path>
+          </svg>
+        </a>
+      </div>
+	   <div class="p-4 md:w-1/4 sm:mb-0 mb-6">
+        <div class="rounded-lg h-64 overflow-hidden">
+          <img alt="content" class="object-cover object-center h-full w-full" src="images/ev.png">
+        </div>
+        <h2 class="title-font font-medium text-lg text-red-700">EXAM VENUES</h2>
+        <p class="text-base leading-relaxed mt-2"><ul>
+		<li>•450+ seats present per Exam Venue.We have 4 Venues in Delhi NCR</li>
+		<li>•	Priority Exam Venue for multiple clients</li>
+		</ul></p>
+         <a class="text-red-500 inline-flex items-center mt-3" href="learn.html#ev">Learn More
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+            <path d="M5 12h14M12 5l7 7-7 7"></path>
+          </svg>
+        </a>
+      </div>
+	   <div class="p-4 md:w-1/4 sm:mb-0 mb-6">
+        <div class="rounded-lg h-64 overflow-hidden">
+          <img alt="content" class="object-cover object-center h-full w-full" src="images/rem.png">
+        </div>
+        <h2 class="title-font font-medium text-lg text-red-700">REMOTE EXAM MANAGEMENT</h2>
+        <p class="text-base leading-relaxed mt-2"><ul>
+		<li>•	Ability to conduct online exams from the comfort of home</li>
+		<li>•	Easy question bank setup with online question bank management system</li>
+		</ul></p>
+        <a class="text-red-500 inline-flex items-center mt-3" href="learn.html#rem">Learn More
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+            <path d="M5 12h14M12 5l7 7-7 7"></path>
+          </svg>
+        </a>
+      </div>
+	   <div class="p-4 md:w-1/4 sm:mb-0 mb-6">
+        <div class="rounded-lg h-64 overflow-hidden">
+          <img alt="content" class="object-cover object-center h-full w-full" src="images/mes.png">
+        </div>
+        <h2 class="title-font font-medium text-lg text-red-700">MOCK EXAM SOLUTION</h2>
+        <p class="text-base leading-relaxed mt-2"><ul>
+		<li>•	Ability to collaborate with other computer labs</li>
+		<li>•	Conducting exams in a real test environment</li>
+		</ul></p>
+		 <a class="text-red-500 inline-flex items-center mt-3" href="learn.html#mes">Learn More
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+            <path d="M5 12h14M12 5l7 7-7 7"></path>
+          </svg>
+        </a>
+      </div>
+	  <div class="p-4 md:w-1/4 sm:mb-0 mb-6">
+        
+      </div>
+	   <div class="p-4 md:w-1/4 sm:mb-0 mb-6">
+        <div class="rounded-lg h-64 overflow-hidden">
+          <img alt="content" class="object-cover object-center h-full w-full" src="images/te.png">
+        </div>
+        <h2 class="title-font font-medium text-lg text-red-700">TEST ENGINE</h2>
+        <p class="text-base leading-relaxed mt-2"><ul>
+		<li>•	Provides its own private servers to conduct examinations</li>
+		<li>•	Can conduct exams of more than 300,000+ students on one sitting</li>
+		</ul></p>
+		 <a class="text-red-500 inline-flex items-center mt-3" href="learn.html#te">Learn More
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+            <path d="M5 12h14M12 5l7 7-7 7"></path>
+          </svg>
+        </a>
+      </div>
+	   <div class="p-4 md:w-1/4 sm:mb-0 mb-6">
+        <div class="rounded-lg h-64 overflow-hidden">
+          <img alt="content" class="object-cover object-center h-full w-full" src="images/cca.png">
+        </div>
+        <h2 class="title-font font-medium text-lg text-red-700">CAREER COUNSELLING ASSESSMENT</h2>
+        <p class="text-base leading-relaxed mt-2"><ul>
+		<li>•	In-house career counseling for 5th to 12th class students</li>
+		<li>•	Backed by research and experts</li>
+		</ul></p>
+		 <a class="text-red-500 inline-flex items-center mt-3" href="learn.html#cca">Learn More
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+            <path d="M5 12h14M12 5l7 7-7 7"></path>
+          </svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+</a>
+
+
+
+
+  <footer id="fixedfooter" class="text-gray-600 body-font">
+  <div class="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
+    <div class="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left md:mt-0 mt-10">
+      <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
+        <img src="images/logo.jpg" width="40">
+
+      <span class="ml-3  text-red-700"><b>PARAKH ONLINE PVT. LTD</b></span>
+      </a>
+      <center><p class="mt-2 text-sm text-white-900"><b>  A LEADING SAAS COMPANY</b></p></center>
+    </div>
+    <div class="flex-grow flex flex-wrap md:pr-20 -mb-10 md:text-left text-center order-first">
+      <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+        <h2 class="title-font font-medium text-red-700 tracking-widest text-sm mb-3"><b>HOME</h2>
+        <nav class="list-none mb-10">
+          <li>
+            <a class="text-white-900 hover:text-white-900" href="#why">WHY PARAKH</a>
+          </li>
+          <li>
+            <a class="text-white-900 hover:text-white-900" href="#industries">INDUSTRIES SERVED</b></a>
+          </li>
+          
+        </nav>
+      </div>
+      <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+        <h2 class="title-font font-medium text-red-700 tracking-widest text-sm mb-3"><b>OUR TEAM</h2>
+        <nav class="list-none mb-10">
+          <li>
+            <a class="text-white-900 hover:text-white-900"href="#core">CORE TEAM</a>
+          </li>
+          <li>
+            <a class="text-white-900 hover:text-white-900" href="#advisory">ADVISORY TEAM</a>
+          </li>
+          <li>
+            <a class="text-white-900 hover:text-white-900" href="#strategic">STRATEGIC ADVISORS</b></a>
+          </li>
+          
+        </nav>
+      </div>
+      <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+        <h2 class="title-font font-medium text-red-700 tracking-widest text-sm mb-3"><b>ABOUT US</h2>
+        <nav class="list-none mb-10">
+          <li>
+            <a class="text-white-900 hover:text-white-900" href="abc.html">OVERVIEW</a>
+          </li>
+          <li>
+            <a class="text-white-900 hover:text-white-900" href="#brands">BRANDS</a>
+          </li>
+          <li>
+            <a class="text-white-900 hover:text-white-900"href="#solution">SOLUTION</b></a>
+          </li>
+          
+        </nav>
+      </div>
+     
+    </div>
+  </div>
+
+</footer>
+
+</body>
+</html>

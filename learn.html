@@ -1,0 +1,653 @@
+
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+
+
+
+<style>
+
+
+
+#fixedfooter {
+	
+	
+	color:#CCC;
+	background:#333;
+	padding:50px;
+	width:100%;
+	
+}
+
+
+
+#fixedheader {
+	position:fixed;
+	top:0px;
+	left:0px;
+	width:100%;
+	
+	color:#CCC;
+	background:#333;
+	padding:8px;
+}
+div.polaroid {
+  width: 500px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+}
+.ex1 {
+   
+  padding-left: 15%;
+}
+
+
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+</style>
+
+
+
+
+</head>
+<body>
+
+
+
+<header id="fixedheader" class="text-red-300 body-font">
+  <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+    <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+      <img src="images/logo.jpg" width="40">
+      <span class="ml-3 text-xl text-red-700"><b>PARAKH ONLINE PVT. LTD</b></span>
+    </a>
+    <nav class="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
+      <a class="mr-5 hover:text-red-700 focus:text-red-700 " href="index.html#" title="press here"><b>HOME</b></a>
+	  
+      
+	  
+	  
+	  <div class="dropdown">
+    <button class="mr-5 hover:text-red-700 focus:text-red-700 " onclick="window.location.href='index.html#core'"><b>OUR TEAM </b>
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a  class="mr-5 hover:text-red-700 focus:text-red-700" href="index.html#core"> CORE TEAM</a>
+      <a class="mr-5 hover:text-red-700 focus:text-red-700" href="index.html#advisory"> ADVISORY TEAM</a>
+      <a class="mr-5 hover:text-red-700 focus:text-red-700" href="index.html#strategic"> STRATEGIC ADVISORS</a>
+    </div>
+  </div> 
+  
+  
+  
+      <a class="mr-5 hover:text-red-700 focus:text-red-700 " href="index.html#brands"><b>BRANDS</b></a>
+	  
+      <a class="mr-5 hover:text-red-700 focus:text-red-700 " href="#cas"><b>SOLUTIONS</b></a>
+	  <a class="mr-5 hover:text-red-700 focus:text-red-700 " href="abc.html"><b>ABOUT US</b></a>
+    </nav>
+    <button class="mr-5 hover:text-red-600 inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0"><b>CONTACT US</b>
+      <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
+        <path d="M5 12h14M12 5l7 7-7 7"></path>
+      </svg>
+    </button>
+  </div>
+</header>
+
+
+
+
+
+
+
+
+
+<section id="cas">
+</br></br></br></br>
+
+<a name="cas">
+<section   class="text-gray-600 body-font">
+  <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+    <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
+      <center><img class="object-cover object-center rounded" alt="hero" src="images/cas.png"></center>
+    </div>
+    <div class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
+      <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-red-700">COMPLETE ASSESSMENT SOLUTION
+         </h1>
+      <p class="mb-8 leading-relaxed"><ul><b>UNIQUE FEATURES</b>
+		<li>•	Create portal for candidate registration</li>
+		<li>•	Exam registration through online or offline form fill-up</li>
+		<li>•	Secure payment gateway to receive examination fees</li>
+<li>•	Student support center to solve queries</li>
+<li>•	Generate valid admit cards from online portal</li>
+<li>•	Logistic management for delivering exam equipments and other resources to the exam centers</li>
+<li>•	Manage human resources and assign tasks to the invigilators</li>
+<li>•	Help desk corner to facilitate students at the exam center</li>
+<li>•	Providing training and support to the, invigilators and students.</li>
+<li>•	Grievance management to register student complains online and solving them efficiently</li>
+<li>•	SMS and Email support for status update of student registration, exam venue, exam date confirmation update and many more</li>
+<li>•	Get detailed exam reports from online portal.</li>
+
+		</ul>
+</p>
+    </div>
+  </div>
+</section>
+</a>
+
+
+
+
+
+<a name="eims">
+<section class="text-gray-600 body-font">
+  <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+    <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
+      <center><img class="object-cover object-center rounded" alt="hero" src="images/eims.png"></center>
+    </div>
+    <div class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
+      <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-red-700">EDUCATION INSTITUTE MANAGEMENT SYSTEM
+      </h1>
+      <p class="mb-8 leading-relaxed"><ul><b>UNIQUE FEATURES</b>
+		<li>•	Enquiry & Sales Management</li>
+		<li>•	Customer Care & Ticketing System</li>
+		 
+		<li>•	Institute Website creation & Management Tool</li>
+<li>•	SMS & Email Campaign Module (Marketing Tool)</li>
+<li>•	Staff and Student Attendance Management</li>
+<li>•	Biometric Attendance System</li>
+<li>•	Invoice & Expense Tracking and Management<ul text-left>
+<li>•	Automated payment reminders to students</li>
+<li>•	Staff salary disbursal system</li>
+<li>•	Current P&L statement for month, year</li>
+<li>•	Expense tracking</li></ul></li>
+<li>•	Learning Management System</li>
+<li>•	Online Assessment tool</li>
+<li>•	Question Bank Management System</li>
+<li>•	Mock Test Platform for students to practice for various exams  </li>
+<li>•   Analytic Reporting System</li>
+<li>•	Coaching Institute</li>
+<li>•	Multiple Reporting Formats</li>
+<li>•	Full Featured Dashboard to manage entire process</li>
+
+
+		</ul></p>
+    </div>
+  </div>
+</section>
+</a>
+
+
+
+<a name="evb">
+<section class="text-gray-600 body-font">
+  <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+    <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
+      <center><img class="object-cover object-center rounded" alt="hero" src="images/evb.png"></center>
+    </div>
+    <div class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
+      <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-red-700">EXAM VENUE BOOKING SOLUTION
+      </h1>
+      <p class="mb-8 leading-relaxed"><ul><b>UNIQUE FEATURES</b>
+		<li>•	Search, Evaluate and on-board PAN India Exam Venues using multiple criteria</li>
+		<li>•	 	Get detail information about a Venue along with photographs & verified contact details</li>
+		<li>• Plan your Exams & seat allocation using our seat availability checker</li>
+
+<li>• On-board auditors, assign audits, track progress</li>
+
+<li>• Mobile app to conduct audit in a secured and structured manner</li>
+</ul>
+</br>
+<ul>
+<b>SERVICES</b>
+
+
+
+
+<li>•	Exam Venue Evaluation Portal</li>
+
+<li>• Exam Venue Booking Service</li>
+
+<li>• Exam Venue Audit Service</li>
+
+<li>• Exam Venue Consultancy Service</li>
+		</ul></p>
+    </div>
+  </div>
+</section>
+</a>
+
+
+
+
+<a name="rp">
+
+<section class="text-gray-600 body-font">
+  <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+    <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
+     <center> <img class="object-cover object-center rounded" alt="hero" src="images/rp.png"></center>
+    </div>
+    <div class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
+      <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-red-700">REGISTRATION PORTAL
+       </h1>
+      <p class="mb-8 leading-relaxed"><ul><b>UNIQUE FEATURES</b>
+		<li>•	SMS & Email</li>
+		<li>•	Aadhaar based verification</li>
+		
+		<li>• Easy document upload</li>
+
+<li>•	Great candidate experience</li>
+
+<li>• Online account for candidates to access admission forms, admit cards & results</li>
+
+<li>• Customer Care support with ticketing system</li>
+
+
+</ul>
+</br>
+<ul>
+<b>SERVICES</b>
+
+<li>•	Customized Portal</li>
+
+<li>• Customized Dashboard</li>
+
+<li>. Payment Gateway</li>
+
+<li>• Mobile App</li>
+		</ul></p>
+    </div>
+  </div>
+</section>
+</a>
+
+
+
+<a name="bs">
+
+<section class="text-gray-600 body-font">
+  <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+    <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
+      <center><img class="object-cover object-center rounded" alt="hero" src="images/bs.png"></center>
+    </div>
+    <div class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
+      <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-red-700">BIOMETRIC SOLUTION
+       </h1>
+      <p class="mb-8 leading-relaxed"><ul><b>UNIQUE FEATURES</b>
+		<li>•	In-house software to capture biometric</li>
+		<li>•	Detailed log reports of candidates White labelled solutions</li>
+		<li>• Services can be sold separately</li>
+		
+		
+		
+		</ul>
+</br>
+<ul>
+<b>SERVICES</b>
+		
+		<li>•	AADHAR based biometric solution</li>
+
+<li>• Tablet based biometric solution</li>
+
+<li>• Reverification Process</li>
+		</ul></p>
+    </div>
+  </div>
+</section>
+</a>
+
+
+<a name="ev">
+<section class="text-gray-600 body-font">
+  <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+    <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
+     <center> <img class="object-cover object-center rounded" alt="hero" src="images/ev.png"></center>
+    </div>
+    <div class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
+      <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-red-700">EXAM VENUES
+        </h1>
+      <p class="mb-8 leading-relaxed"><ul><b>UNIQUE FEATURES</b>
+		<li>•450+ seats present per Exam Venue.We have 4 Venues in Delhi NCR</li>
+		<li>•	Priority Exam Venue for multiple clients</li>
+		<li> •	All are located at close proximity to Public Transport system</li>
+
+<li>• Equipped with Latest and upgradable computer systems</li>
+
+<li>• Full secured with cameras and Biometric Authentication</li>
+
+<li>• Automated Switch Panel with UPS and DG Backup facilities</li>
+
+<li>• Fully fitted with all amenities like lift, ACs, Washrooms etc</li>
+		</ul></p>
+    </div>
+  </div>
+</section>
+
+</a>
+
+
+
+<a name="rem">
+
+<section class="text-gray-600 body-font">
+  <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+    <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
+      <center><img class="object-cover object-center rounded" alt="hero" src="images/rem.png"></center>
+    </div>
+    <div class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
+      <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-red-700">REMOTE EXAM MANAGEMENT
+        </h1>
+      <p class="mb-8 leading-relaxed"><ul><b>UNIQUE FEATURES</b>
+		<li>•	Ability to conduct online exams from the comfort of home</li>
+		<li>•	Easy question bank setup with online question bank management system</li>
+		<li>•	Secure exam invigilation with remote proctoring ability</li>
+
+<li>• Question randomization for unbiased question set-up</li>
+
+<li>• Detailed performance analysis with respect to different criteria</li>
+
+<li>•	Adaptive testing environment with the ability to conduct any type of mock tests, class tests, semester examinations, entrance examinations and recruitment examinations</li>
+		</ul></p>
+    </div>
+  </div>
+</section>
+</a>
+
+
+
+<a name="mes">
+
+<section class="text-gray-600 body-font">
+  <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+    <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
+      <center><img class="object-cover object-center rounded" alt="hero" src="images/mes.png"></center>
+    </div>
+    <div class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
+      <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-red-700">MOCK EXAM SOLUTION
+        
+      </h1>
+      <p class="mb-8 leading-relaxed"><ul><b>UNIQUE FEATURES</b>
+		<li>•	Ability to collaborate with other computer labs</li>
+		<li>•	Conducting exams in a real test environment</li>
+		<li>•	Instant student performance evaluation</li>
+		</ul></p>
+    </div>
+  </div>
+</section>
+</a>
+
+
+
+
+<a name="te">
+
+<section class="text-gray-600 body-font">
+
+  <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+    <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
+      <center><img class="object-cover object-center rounded" alt="hero" src="images/te.png"></center>
+    </div>
+    <div class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
+      <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-red-700">TEST ENGINE
+       
+      </h1>
+      <p class="mb-8 leading-relaxed"><ul><b>UNIQUE FEATURES</b>
+		<li>•	Provides its own private servers to conduct examinations</li>
+		<li>•	Can conduct exams of more than 300,000+ students on one sitting</li>
+		<li>•	Biometric authentication of the students</li>
+
+<li>• Students randomly using biometric authentication</li>
+
+<li>• Three-tier backup system with real-time auto-sync</li>
+
+<li>• Support regional languages</li>
+
+<li>• Ability to conduct any type of computer-based, web-based, tablet-based examinations as well as skill test examinations</li>
+		</ul></p>
+    </div>
+  </div>
+  
+  <section class="text-gray-600 body-font">
+  <div class="container px-5 py-24 mx-auto">
+   <center><h1 text-align="center" class="text-4xl font-medium title-font mb-4 text-red-700">TYPES OF TEST ENGINE</h1></center> </br></br></br>
+    <div class="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4">
+      <div class="p-4 md:w-1/3 sm:mb-0 mb-6">
+        <div class="rounded-lg h-64 overflow-hidden">
+          <img alt="content" class="object-cover object-center h-full w-full" src="images/lan.jpg" >
+        </div>
+		</br>
+        <center><h2 class="title-font font-medium text-lg text-GRAY-600">LAN BASED TEST</h2></center>
+        
+        
+      </div>
+      <div class="p-4 md:w-1/3 sm:mb-0 mb-6">
+        <div class="rounded-lg h-64 overflow-hidden">
+          <img alt="content" class="object-cover object-center h-full w-full" src="images/int.jpg">
+        </div>
+        <center></br><h2 class="title-font font-medium text-lg text-GRAY-600">INTERNET BASED TEST</h2></center>
+       
+      </div>
+	   <div class="p-4 md:w-1/3 sm:mb-0 mb-6">
+        <div class="rounded-lg h-64 overflow-hidden">
+          <img alt="content" class="object-cover object-center h-full w-full" src="images/skill.jpg">
+        </div>
+       <center></br> <h2 class="title-font font-medium text-lg text-GRAY-600">SKILL TEST</h2></center>
+        
+      </div>
+      <div class="p-4 md:w-1/3 sm:mb-0 mb-6">
+        <div class="rounded-lg h-64 overflow-hidden">
+          <img alt="content" class="object-cover object-center h-full w-full" src="images/type.jpg">
+        </div>
+       <center></br> <h2 class="title-font font-medium text-lg text-GRAY-600">STENO/TYPING TEST</h2></center>
+        
+      </div>
+	 
+	 
+	  <div class="p-4 md:w-1/3 sm:mb-0 mb-6">
+        <div class="rounded-lg h-64 overflow-hidden">
+          <img alt="content" class="object-cover object-center h-full w-full" src="images/tab.jpg">
+        </div>
+     <center> </br>  <h2 class="title-font font-medium text-lg text-GRAY-600">TABLET BASED TEST</h2></center>
+        
+      </div>
+	   <div class="p-4 md:w-1/3 sm:mb-0 mb-6">
+        <div class="rounded-lg h-64 overflow-hidden">
+          <img alt="content" class="object-cover object-center h-full w-full" src="images/ms1.jpg">
+        </div>
+       <center></br> <h2 class="title-font font-medium text-lg text-GRAY-600">MS OFFICE PROFICIENCY TEST</h2></center>
+       
+      </div>
+    </div>
+  </div>
+</section>
+  
+  
+  
+  <section class="text-gray-600 body-font">
+  <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+    <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
+      <center><img class="object-cover object-center rounded" alt="hero" src="images/3.png"></center>
+    </div>
+   <div class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
+     
+   <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-red-700">SKILL TEST SOLUTION
+       
+      </h1>
+	  
+	  <p class="mb-8 leading-relaxed"><ul><b>UNIQUE FEATURES</b><li>• Offering easy and economic solution for various types of skill tests.</li>
+
+
+
+<li> • A fully Computer based platform for skill tests</li>
+
+<li>• Easy and simple interface</li>
+
+<li> • Automatic save feature and countdown timer for candidate's ease</li>
+
+<li> • Preview of answer sheet after examination to eliminate discrepancy</li>
+
+<li> • Automatic dictation feature for steno test</li>
+
+<li> •Automatically evaluate answer sheets</li>
+
+<li> •Bulk result print with a single click</li>
+</ul></br><ul><b>SERVICES</b>
+
+<li>MS Proficiency Tests</li>
+
+<li>• Word proficiency test</li>
+
+<li>• Excel proficiency test</li>
+
+<li>• Powerpoint proficiency test</li>
+
+<li>• Steno Test</li>
+
+<li>• Typing Test</li></ul>
+	  
+	  
+	  
+	  
+	  
+  
+  </div></div>
+</section>
+</a>
+
+
+<a name="cca">
+<section class="text-gray-600 body-font">
+  <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+    <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
+      <center><img class="object-cover object-center rounded" alt="hero" src="images/cca.png"></center>
+    </div>
+    <div class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
+      <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-red-700">CAREER COUNSELLING ASSESSMENT
+        
+      </h1>
+      <p class="mb-8 leading-relaxed"><ul><b>UNIQUE FEATURES</b>
+		<li>•	In-house career counseling for 5th to 12th class students</li>
+		<li>•	Backed by research and experts</li>
+		<li>•	 Tablet & computer based deployment</li>
+		</ul></p>
+    </div>
+	
+  </div>
+  
+</section></section>
+</a>
+
+
+
+
+
+  <footer id="fixedfooter" class="text-gray-600 body-font">
+  <div class="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
+    <div class="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left md:mt-0 mt-10">
+      <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
+        <img src="images/logo.jpg" width="40">
+
+      <span class="ml-3  text-red-700"><b>PARAKH ONLINE PVT. LTD</b></span>
+      </a>
+      <center><p class="mt-2 text-sm text-white-900"><b>  A LEADING SAAS COMPANY</b></p></center>
+    </div>
+    <div class="flex-grow flex flex-wrap md:pr-20 -mb-10 md:text-left text-center order-first">
+      <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+        <h2 class="title-font font-medium text-red-700 tracking-widest text-sm mb-3"><b>HOME</h2>
+        <nav class="list-none mb-10">
+          <li>
+            <a class="text-white-900 hover:text-white-900" href="index.html#why">WHY PARAKH</a>
+          </li>
+          <li>
+            <a class="text-white-900 hover:text-white-900" href="index.html#industries">INDUSTRIES SERVED</b></a>
+          </li>
+          
+        </nav>
+      </div>
+      <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+        <h2 class="title-font font-medium text-red-700 tracking-widest text-sm mb-3"><b>OUR TEAM</h2>
+        <nav class="list-none mb-10">
+          <li>
+            <a class="text-white-900 hover:text-white-900"href="index.html#core">CORE TEAM</a>
+          </li>
+          <li>
+            <a class="text-white-900 hover:text-white-900" href="index.html#advisory">ADVISORY TEAM</a>
+          </li>
+          <li>
+            <a class="text-white-900 hover:text-white-900" href="index.html#strategic">STRATEGIC ADVISORS</b></a>
+          </li>
+          
+        </nav>
+      </div>
+      <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+        <h2 class="title-font font-medium text-red-700 tracking-widest text-sm mb-3"></b>ABOUT US</b></h2>
+        <nav class="list-none mb-10">
+          <li>
+            <a class="text-white-900 hover:text-white-900" href="abc.html"><b>OVERVIEW</b></a>
+          </li>
+          <li>
+            <a class="text-white-900 hover:text-white-900" href="index.html#brands"><b>BRANDS</b></a>
+          </li>
+          <li>
+            <a class="text-white-900 hover:text-white-900"href="index.html#solution"><b>SOLUTION</b></a>
+          </li>
+          
+        </nav>
+      </div>
+     
+    </div>
+  </div>
+
+</footer>
+
+
+
+
+
+  </body>
+  </html>
